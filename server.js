@@ -5,12 +5,6 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var About= {
-    content:'
-    <p>
-    This is my  article.
-    </p>'
-};
 
 
 app.get('/', function (req, res) {
