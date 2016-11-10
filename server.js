@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    'Services':{ title:'Services',
+    'About':{ title:'about',
 
      content:
    ` <p>
@@ -18,10 +18,11 @@ var articles={
     }
     
 };
+function createTemplate(data) {
 var htmlTemplate=`<html>
 <head>
 <style>
-services
+$(tilte)
 </style>
 </head>
 <body>
@@ -29,18 +30,13 @@ services
 <a href='\'>Home </a>
 </div>
 <div>
-<p>
-    This is My blog.This is My blog.This is My blog.This is My blog.
-    </p>
- 
-   <p>
-    This is My blog.This is My blog.This is My blog.This is My blog.
-    </p>
+$(content)
 </div>
 </body>
-</html>`
+</html>`;
+return htmlTemplate;
 
-
+}
 
 
 
