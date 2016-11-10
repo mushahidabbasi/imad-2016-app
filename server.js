@@ -17,9 +17,31 @@ var articles={
     </p>`
     }
     
-  
-
 };
+var htmlTemplate=`<html>
+<head>
+<style>
+services
+</style>
+</head>
+<body>
+<div>
+<a href='\'>Home </a>
+</div>
+<div>
+<p>
+    This is My blog.This is My blog.This is My blog.This is My blog.
+    </p>
+ 
+   <p>
+    This is My blog.This is My blog.This is My blog.This is My blog.
+    </p>
+</div>
+</body>
+</html>`
+
+
+
 
 
 app.get('/', function (req, res) {
