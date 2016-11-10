@@ -6,8 +6,19 @@ var app = express();
 app.use(morgan('combined'));
 
 var content={
-    
-}
+    title:'Article One|mushahid abbasi',
+    heading:'Article One',
+    date:'Sep 5,2016',
+    content:
+   ` <p>
+    This is My blog.This is My blog.This is My blog.This is My blog.
+    </p>
+    <p>
+    This is My blog.This is My blog.This is My blog.This is My blog.
+    </p>`
+
+};
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
