@@ -31,7 +31,7 @@ var articles={
     'Register':{title:'Register',
     content:
     `
-<p>
+
 <form>
                 <h1>Create Logon</h1>
                 <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div>
@@ -48,7 +48,8 @@ var articles={
                 <div class="line submit"><input type="submit" value="Submit" /></div>
  
                 <p>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
-            </form>
+            </form> `
+    }
     
 };
 function createTemplate(data) {
