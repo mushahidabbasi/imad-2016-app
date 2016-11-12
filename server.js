@@ -31,7 +31,7 @@ var articles={
     'Register':{title:'Register',
     content:
     `
-
+<div id ="container">
 <form>
                 <h1>Registration Page</h1>
                 <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div> <br>
