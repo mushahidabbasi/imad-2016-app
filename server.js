@@ -24,7 +24,7 @@ function createTemplate(data) {
 var htmlTemplate=`<html>
 <head>
 <style>
-${tilte}
+${title}
 </style>
 </head>
 <body>
