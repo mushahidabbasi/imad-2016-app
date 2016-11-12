@@ -29,7 +29,7 @@ ${title}
 </head>
 <body>
 <div>
-<a href='\'>Home </a>
+<a href='#'>Home </a>
 </div>
 <div>
 ${content}
