@@ -15,6 +15,18 @@ var articles={
     <p>
     This is My blog.This is My blog.This is My blog.This is My blog.
     </p>`
+    },
+    'Products':{title:'Products',
+    content:
+    `<p>
+    <li>Blog1 </li>
+    <li>
+    Blog2
+    </li>
+    <li>
+    Blog3
+    </li>
+    <p>`
     }
     
 };
