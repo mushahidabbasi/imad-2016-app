@@ -30,6 +30,17 @@ button {
     background-color: #f44336;
 }
 
-
+  #container {width:300px; margin:0 auto;}
+ 
+            
+            form label {display:inline-block; width:140px;}
+ 
+        
+            form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
 
 
