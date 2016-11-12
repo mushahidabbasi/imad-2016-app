@@ -60,7 +60,7 @@ var articles={
   <div class="container">
     <label><b>Username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
-<br>
+<br> <br>
     <label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 <br>
