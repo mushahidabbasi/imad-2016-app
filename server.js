@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles={
-    'About':{ title:'about',
+    'About':{ title:'About',
 
      content:
    ` <p>
@@ -22,7 +22,7 @@ function createTemplate(data) {
 var htmlTemplate=`<html>
 <head>
 <style>
-$(tilte)
+${tilte}
 </style>
 </head>
 <body>
@@ -30,7 +30,7 @@ $(tilte)
 <a href='\'>Home </a>
 </div>
 <div>
-$(content)
+${content}
 </div>
 </body>
 </html>`;
