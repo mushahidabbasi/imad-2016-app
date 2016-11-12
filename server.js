@@ -85,6 +85,7 @@ var htmlTemplate=`<html>
 <style>
 ${title}
 </style>
+<link href="/ui/style.css" rel="stylesheet" />
 </head>
 <body>
 <div>
