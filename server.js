@@ -6,8 +6,8 @@ var crypto = require('crypto');
 var bodyParser= require('body-parser');
 
 var config={
-    username:'mujahirabbasi',
-    database:'mujahirabbasi',
+    username:'mushahidabbasi',
+    database:'mushahidabbasi',
     host:'db.imad.hasura.io',
     port:'5432',
     password:process.env.DB_PASSWORD
